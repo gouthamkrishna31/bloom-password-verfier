@@ -80,11 +80,12 @@ extern "C" {
 }
 
 #[wasm_bindgen]
-pub fn check_password(_password: &str, filepath: &str){
+pub fn check_password(password: &str, filepath: &str) ->bool{
     log(filepath);
-    // let function_handler = LoadThePassword::initialize(& mut String::from(filepath));
-    // let result_check = function_handler.check(password);
-    // result_check
+
+    let function_handler = LoadThePassword::initialize(& mut String::from(filepath));
+    let result_check = function_handler.check(password);
+    result_check
 }
 
 

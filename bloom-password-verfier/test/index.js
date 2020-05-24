@@ -1,0 +1,1 @@
+import ('../pkg').then(module => { module.run();}).catch(error => console.log(error));

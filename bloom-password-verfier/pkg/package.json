@@ -1,0 +1,15 @@
+{
+  "name": "@goutham31/bloom-password-verfier",
+  "collaborators": [
+    "goutham"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "bloom_password_verfier_bg.wasm",
+    "bloom_password_verfier.js",
+    "bloom_password_verfier.d.ts"
+  ],
+  "module": "bloom_password_verfier.js",
+  "types": "bloom_password_verfier.d.ts",
+  "sideEffects": false
+}
